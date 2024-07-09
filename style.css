@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono", monospace;
+
+}
+
+
+
+
+.navv >h1{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 800;
+    font-size: 28px;
+
+}
+
+
+
+nav >.navv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 38px 166px;
+}
+
+
+
+ nav .navv >button{
+    
+    width: 228px;
+    height: 58px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+
+
+nav .navv button >a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Azeret Mono", monospace;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* banar */
+
+
+.banar{
+    width: 1900px;
+    height: 652px;
+    margin: 0 auto;
+    background-image: url(erobg.png);
+}
+
+
+.prag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.banar .prag >h1{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 32px;
+
+}
+
+.banar .prag >p{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 24px;
+
+}
+
+
+.banar .prag >button{
+   
+    
+    width: 210px;
+    height: 58px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+    margin-top: 32px;
+    
+
+
+}
+
+.banar .prag button >a{
+    text-decoration: none;
+    color: white;
+    font-family: "Azeret Mono", monospace;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+/* offic */
+
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.offic{
+    width: 1140px;
+    height: 1395px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 74px auto;
+   
+}
+
+.offic-s{
+    width: 946px;
+    height: 1100px;
+   
+    margin:80px  auto ;
+    background-color: #fdfdfe;
+}
+
+.offic >h1{
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.offic >.ptag{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+
+.offic .offic-s >.box{
+    width: 946px;
+    height: 336px;
+  
+
+}
+
+.offic .offic-s .box .rased >h3{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.offic .offic-s .box .rased >p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.offic .offic-s .box .rased >.btn{
+    width: 210px;
+    height: 58px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+    margin-top: 32px;
+    
+  
+}
+.offic .offic-s .box .rased .btn >a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
+
+
+.box,.rased{
+    background-color: #fafafb;
+    margin: 30px 0;
+
+}
