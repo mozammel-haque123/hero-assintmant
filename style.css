@@ -204,3 +204,120 @@ nav .navv button >a{
     margin: 30px 0;
 
 }
+
+
+/* link */
+
+
+
+.link{
+    width: 1140px;
+    height: 775px;
+   
+    margin: 151px auto;
+}
+
+.link >.link-2{
+    width: 852px;
+    height: 113px;
+    
+    margin: 0 auto;
+}
+
+
+.link .link-2 >h1{
+    font-size: 32px;
+    font-weight: 800;
+    
+    
+}
+
+
+.link .link-2 >p{
+    font-size: 16px;
+    font-weight: 400;
+   
+    margin-top: 24px;
+}
+
+.video{
+    width: 1140px;
+    height: 641px;
+    
+
+}
+
+
+.video >iframe{
+    padding: 20px;
+
+}
+
+
+
+/* frem wark */
+
+.frem-wark{
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+   
+ 
+}
+
+.frem-wark .wark >.h-1{
+    font-weight: 800;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+   
+
+}
+
+.frem-wark .wark >p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+/* frem card-1 */
+
+.wan-card >.card-1{
+
+    width: 364px;
+    height: 299px;
+    background-color: #fff6f4;
+    padding: 20px;
+    
+}
+
+.frem-wark .wan-card .card-1 >h1{
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 24px;
+
+
+    
+}
+
+.frem-wark .wan-card .card-1 >p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.frem-wark .wan-card .card-1 >a{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+  
+}
+
+.frem-wark >.wan-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 97px;
+} 
+
